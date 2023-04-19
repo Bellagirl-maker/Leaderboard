@@ -10,18 +10,21 @@
     <div class="container">
     <h1 class="heading">Leaderboard</h1>
     <div class="scores">
-    <div class="recent-scores">
-        <h3>Recent scores</h3>
-        <button>refresh</button>
-    </div>
-    <ul class="recent-score-list">
-        <!-- generate from javascript -->
-      </ul>
+        <div class="recent-box">
+            <div class="recent-scores">
+                <h2>Recent scores</h2>
+                <button class="refresh-btn">refresh</button>
+            </div>
+            <ul class="recent-score-list">
+                <!-- generate from javascript -->
+              </ul>
+        </div>
+    
     <div class="add-score">
-        <h3>Add your score</h3>
+        <h2 class="add-score-h2">Add your score</h3>
         <form class="form">
-            <input type="text" placeholder="your name"><br> <br>
-            <input type="text" placeholder="your score"><br> <br>
+            <input type="text" class="name" placeholder="your name"><br> <br>
+            <input type="number" class="score-input" placeholder="your score"><br> <br>
             <button class="submit">submit</button>
         </form>
     </div>
